@@ -4,11 +4,61 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="styles/normalize.css" />
+  <link rel="stylesheet" type="text/css" href="styles/small.css" />
+  <link rel="stylesheet" type="text/css" href="styles/large.css" />
+  <script src="scripts/navigation.js" defer></script>
+  <script src="scripts/date.js" defer></script>
+  <script src="scripts/course.js" defer></script>
   <title>Document</title>
 </head>
 
 <body>
-
+  <header>
+    <img id="open-menu" src="images/burger-bar.png" alt="Open navigation menu" />
+    <div class="profile">
+      <img class="profile-pic" src="images/profile.jpg" alt="Photo of Pica" />
+      <p class="profile-name">Pica Nievas</p>
+    </div>
+    <nav id="main-menu" class="closed">
+      <img id="close-menu" src="images/menu-close.png" alt="Close navigation menu" />
+      <ul>
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="#">Chamber</a></li>
+        <li><a href="https://github.com/picanievas/">GitHub Profile</a></li>
+        <li><a href="https://www.linkedin.com/in/pica-nievas-93b3a1291/">LinkedIn</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <h1>Home</h1>
+    <div class="sections">
+      <section>
+        <h2>Course Work</h2>
+      </section>
+      <section>
+        <h2>Austin, Texas</h2>
+        <div id="austin-box">
+          <img id="austin" src="images/austin.jpg" alt="photo of austin" />
+        </div>
+      </section>
+    </div>
+    <section>
+      <h2>Web and Computer Programming Certificate</h2>
+      <div id="courses-buttons">
+        <button id="all-courses" class="active">All</button>
+        <button id="cse-courses">CSE</button>
+        <button id="wdd-courses">WDD</button>
+      </div>
+      <div id="courses-list"></div>
+    </section>
+  </main>
+  <footer>
+    <div>
+      <p>&copy; <span id="currentyear"></span> Pica Nievas Austin, Texas</p>
+      <p id="lastModified">Year</p>
+    </div>
+  </footer>
 </body>
 
 </html>

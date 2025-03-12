@@ -1,0 +1,29 @@
+@media screen and (min-width: 430px) {
+  .course-card {
+    width: 33%;
+  }
+
+  .sections {
+    display: flex;
+  }
+
+  .sections section {
+    width: 50%;
+  }
+
+  #open-menu {
+    display: none;
+  }
+  #close-menu {
+    display: none;
+  }
+
+  #main-menu {
+    position: relative;
+    display: block;
+  }
+
+  nav ul {
+    flex-direction: row;
+  }
+}

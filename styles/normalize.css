@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+:root {
+  --primary-color: #58a7bf; /* moonstone */
+  --secondary-color: #8db87a; /* olivine */
+  --accent1-color: #796ea5; /* violet */
+  --accent2-color: #f8d882; /* butter */
+}
+
+html {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-size: 16px;
+  font-family: Montserrat, Arial, Helvetica, sans-serif;
+}
+
+header {
+  background: var(--primary-color);
+}
+
+main {
+  background: lightblue;
+}
+
+footer {
+  background: var(--primary-color);
+  display: flex;
+  padding: 2rem;
+  justify-content: space-around;
+}
+
+footer p {
+  text-align: center;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+nav ul li {
+  background: var(--secondary-color);
+  list-style-type: none;
+}
+
+nav ul li a {
+  padding: 0.5rem;
+  background: var(--secondary-color);
+}
+
+nav ul li .active {
+  background: var(--accent2-color);
+  padding: 0.5rem;
+}
+
+section {
+  margin: 0.5rem;
+  border: 1px solid #000;
+}
+
+h1 {
+  padding: 0.5rem;
+  margin: 0;
+}
+
+h2 {
+  background: white;
+  padding: 0.5rem;
+  margin: 0;
+}
